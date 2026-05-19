@@ -1,0 +1,21 @@
+:root{}
+
+/*navbar*/
+.hyperbar {font-size: 18px; border-radius: 25px; float: inline-start; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333333;}
+.hyperbar .navoption {float: inline-start;}
+.hyperbar .navoption .hyperlinkblocked {font-family: 'Ubuntu', sans-serif; display: block; color: white; text-align: center; padding: 15px; text-decoration: none;}
+.hyperbar .navoption .hyperlinkblocked:hover {font-family: 'Ubuntu', sans-serif; background-color: #111111; border-radius: 15px;}
+
+/*decoritive boxes (as seen on index from milanote mockup)*/
+.decobox0 {height: 400px; width: 675px; background-color: rgb(14, 116, 116); padding: 10px; position: absolute; top: 150px; left: 75px; right: auto; border-radius: 25px;}
+.decobox1 {height: 400px; width: 675px; background-color: rgba(0, 255, 255, 0.748); padding: 10px; position: absolute; top: 225px; left: 150px; right: auto; border-radius: 25px;}
+
+/*id button thing for more info as seen on milanote index mockup*/
+.homeidbutton {font-family: 'Ubuntu', sans-serif; position: absolute; right: 350px; top: 570px; height: 75px; width: 350px; border-radius: 25px; border: none; font-size: 25px;}
+.homeidbutton:hover {background-color: antiquewhite;}
+.font{text-decoration: none; color: ;}
+
+.bannerimgindex {position: absolute; height: 350px; right: 365px; top: 200px;}
+
+.divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px; position: relative;}
+.fixforfooteranddivider {line-height: 680px;}
