@@ -1,5 +1,8 @@
+/*this NEEDS to be optomised for readability!!!*/
 :root{}
 
+/*so the IDs look better*/
+html {scroll-behavior: smooth;}
 
 /*navbar*/
 .hyperbar {font-size: 18px; border-radius: 25px; float: inline-start; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333333;}
@@ -14,19 +17,24 @@
 .infoboxindex {height: 400px; width: 1000px; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px;}
 
 /*id button thing for more info as seen on milanote index mockup*/
-.homeidbutton {font-family: 'Ubuntu', sans-serif; position: absolute; right: 350px; top: 570px; height: 75px; width: 350px; border-radius: 25px; border: none; font-size: 25px;}
-.homeidbutton:hover {background-color: antiquewhite;}
-.font{text-decoration: none; color: ;}
+.whateverfixesit {align-items: center; display: flex; justify-content: center;  background-color: #333333; font-family: 'Ubuntu', sans-serif; position: absolute; right: 350px; top: 570px; height: 75px; width: 350px; border-radius: 25px; border: none; font-size: 25px;}
+.whateverfixesit:hover {background-color: rgb(221, 126, 1);}
+.tofooterindexbreif {text-decoration: none; color: white;}
 
+/*the photo thats SUPPOSED to appear behind and just above the button idk i'll fix it later when i get my final images sorted*/
 .bannerimgindex {position: absolute; height: 350px; right: 365px; top: 200px;}
 
+/*the divider just under the cool sqares and above the breifing*/
 .divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px;}
 .fixforfooteranddivider {line-height: 680px;}
 
 /*boxes under the devider*/
-.infoboxindex {left: 75px; height: 300px; width: 285px; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: relative;}
+.infoboxindex {left: 75px; height: 285px; width: 300px; background-image: url(src/images/placeholder.jpg); background-size: cover; padding: 10px; border-radius: 25px; position: relative;}
 .infoboxtextindex {top: 734px; left: 425px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
-.infoboxindex2 {right: 75px; top: 1100px; height: 285px; width: 300px; background-color: rgb(10, 231, 102); padding: 10px; border-radius: 25px; position: absolute;}
+.infoboxindex2 {right: 75px; top: 1100px; height: 285px; width: 300px; background-image: url(src/images/placeholder.jpg); background-size: cover; padding: 10px; border-radius: 25px; position: absolute;}
 .infoboxtextindex2 {top: 1100px; left: 75px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.548); padding: 10px; border-radius: 25px; position: absolute;}
-.infoboxindex3 {top: 1454px; left: 75px; height: 285px; width: 300px; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
+.infoboxindex3 {top: 1454px; left: 75px; height: 285px; width: 300px; background-image: url(src/images/placeholder.jpg); background-size: cover; padding: 10px; border-radius: 25px; position: absolute;}
 .infoboxtextindex3 {top: 1454px; left: 425px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
+/*because of how inofficent the css is on these boxes and other assets this is the best i can do to not bunch the last boxes against the bottom of the page*/
+.indexfootergap {line-height: 750px;}
+
