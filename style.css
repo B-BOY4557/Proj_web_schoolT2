@@ -1,5 +1,6 @@
 :root{}
 
+
 /*navbar*/
 .hyperbar {font-size: 18px; border-radius: 25px; float: inline-start; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333333;}
 .hyperbar .navoption {float: inline-start;}
@@ -9,6 +10,8 @@
 /*decoritive boxes (as seen on index from milanote mockup)*/
 .decobox0 {height: 400px; width: 675px; background-color: rgb(14, 116, 116); padding: 10px; position: absolute; top: 150px; left: 75px; right: auto; border-radius: 25px;}
 .decobox1 {height: 400px; width: 675px; background-color: rgba(0, 255, 255, 0.748); padding: 10px; position: absolute; top: 225px; left: 150px; right: auto; border-radius: 25px;}
+/*boxes under the devider*/
+.infoboxindex {height: 400px; width: 1000px; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px;}
 
 /*id button thing for more info as seen on milanote index mockup*/
 .homeidbutton {font-family: 'Ubuntu', sans-serif; position: absolute; right: 350px; top: 570px; height: 75px; width: 350px; border-radius: 25px; border: none; font-size: 25px;}
@@ -17,5 +20,13 @@
 
 .bannerimgindex {position: absolute; height: 350px; right: 365px; top: 200px;}
 
-.divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px; position: relative;}
+.divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px;}
 .fixforfooteranddivider {line-height: 680px;}
+
+/*boxes under the devider*/
+.infoboxindex {left: 75px; height: 300px; width: 285px; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: relative;}
+.infoboxtextindex {top: 734px; left: 425px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
+.infoboxindex2 {right: 75px; top: 1100px; height: 285px; width: 300px; background-color: rgb(10, 231, 102); padding: 10px; border-radius: 25px; position: absolute;}
+.infoboxtextindex2 {top: 1100px; left: 75px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.548); padding: 10px; border-radius: 25px; position: absolute;}
+.infoboxindex3 {top: 1454px; left: 75px; height: 285px; width: 300px; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
+.infoboxtextindex3 {top: 1454px; left: 425px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
