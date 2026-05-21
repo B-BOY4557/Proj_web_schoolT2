@@ -2,39 +2,115 @@
 :root{}
 
 /*so the IDs look better*/
-html {scroll-behavior: smooth;}
+html {scroll-behavior: smooth; }
+
 
 /*navbar*/
-.hyperbar {font-size: 18px; border-radius: 25px; float: inline-start; list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333333;}
+.hyperbar {
+    font-size: 18px;
+    border-radius: 25px;
+    float: inline-start;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
 .hyperbar .navoption {float: inline-start;}
-.hyperbar .navoption .hyperlinkblocked {font-family: 'Ubuntu', sans-serif; display: block; color: white; text-align: center; padding: 15px; text-decoration: none;}
-.hyperbar .navoption .hyperlinkblocked:hover {font-family: 'Ubuntu', sans-serif; background-color: #111111; border-radius: 15px;}
+.hyperbar .navoption .hyperlinkblocked {
+    font-family: 'Ubuntu', sans-serif;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+.hyperbar .navoption .hyperlinkblocked:hover {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #111111;
+    border-radius: 15px;
+}
 
 /*decoritive boxes (as seen on index from milanote mockup)*/
-.decobox0 {height: 400px; width: 675px; background-color: rgb(14, 116, 116); padding: 10px; position: absolute; top: 150px; left: 75px; right: auto; border-radius: 25px;}
-.decobox1 {height: 400px; width: 675px; background-color: rgba(0, 255, 255, 0.748); padding: 10px; position: absolute; top: 225px; left: 150px; right: auto; border-radius: 25px;}
+.decobox0 {
+    height: 400px;
+    width: 675px;
+    background-color: rgb(14, 116, 116);
+    padding: 10px;
+    position: absolute;
+    top: 150px;
+    left: 75px;
+    right: auto;
+    border-radius: 25px;
+}
+.decobox1 {
+    height: 400px;
+    width: 675px;
+    background-color: rgba(0, 255, 255, 0.748);
+    padding: 10px;
+    position: absolute;
+    top: 225px;
+    left: 150px;
+    right: auto;
+    border-radius: 25px;
+}
 /*boxes under the devider*/
 .infoboxindex {height: 400px; width: 1000px; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px;}
 
 /*id button thing for more info as seen on milanote index mockup*/
-.whateverfixesit {align-items: center; display: flex; justify-content: center;  background-color: #333333; font-family: 'Ubuntu', sans-serif; position: absolute; right: 350px; top: 570px; height: 75px; width: 350px; border-radius: 25px; border: none; font-size: 25px;}
+.whateverfixesit {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    background-color: #333333;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    right: 350px;
+    top: 570px;
+    height: 75px;
+    width: 350px;
+    border-radius: 25px;
+    border: none; font-size: 25px;
+}
 .whateverfixesit:hover {background-color: rgb(221, 126, 1);}
 .tofooterindexbreif {text-decoration: none; color: white;}
 
 /*the photo thats SUPPOSED to appear behind and just above the button idk i'll fix it later when i get my final images sorted*/
-.bannerimgindex {position: absolute; height: 350px; right: 365px; top: 200px;}
+.bannerimgindex {display: flex; height: 350px; right: 365px; top: 200px;}
 
 /*the divider just under the cool sqares and above the breifing*/
 .divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px;}
 .fixforfooteranddivider {line-height: 680px;}
 
 /*boxes under the devider*/
-.infoboxindex {left: 75px; height: 285px; width: 300px; background-image: url(src/images/placeholder.jpg); background-size: cover; padding: 10px; border-radius: 25px; position: relative;}
-.infoboxtextindex {top: 734px; left: 425px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
-.infoboxindex2 {right: 75px; top: 1100px; height: 285px; width: 300px; background-image: url(src/images/placeholder.jpg); background-size: cover; padding: 10px; border-radius: 25px; position: absolute;}
-.infoboxtextindex2 {top: 1100px; left: 75px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.548); padding: 10px; border-radius: 25px; position: absolute;}
-.infoboxindex3 {top: 1454px; left: 75px; height: 285px; width: 300px; background-image: url(src/images/placeholder.jpg); background-size: cover; padding: 10px; border-radius: 25px; position: absolute;}
-.infoboxtextindex3 {top: 1454px; left: 425px; height: 285px; width: 73%; background-color: rgba(6, 98, 44, 0.748); padding: 10px; border-radius: 25px; position: absolute;}
-/*because of how inofficent the css is on these boxes and other assets this is the best i can do to not bunch the last boxes against the bottom of the page*/
-.indexfootergap {line-height: 750px;}
+.contain1, .contain2, .contain3 {display: flex; align-items: center; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;}
+.contain3 {margin-bottom: -25px;}
+.contain2 {flex-direction: row-reverse; }
+
+
+.infoboxindex, .infoboxindex2, .infoboxindex3 {
+    height: 285px;
+    width: 300px;
+    background-image: url(src/images/placeholder.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.infoboxtextindex, .infoboxtextindex2, .infoboxtextindex3 {
+    flex-grow: 1;
+    height: 285px;
+    background-color: rgba(6, 98, 44, 0.748);
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-grow: 1;
+    min-width: 40%;
+}
+
+
 
