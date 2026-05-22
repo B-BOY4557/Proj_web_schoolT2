@@ -2,7 +2,9 @@
 :root{}
 
 /*so the IDs look better*/
-html {scroll-behavior: smooth; }
+html, body {scroll-behavior: smooth; height: 100%; }
+
+.navbarcontain {z-index: 1;}
 
 /*navbar*/
 .hyperbar {
@@ -30,56 +32,25 @@ html {scroll-behavior: smooth; }
     background-color: #111111;
     border-radius: 15px;
 }
-/*fix this i can't be assed rn*/
 
-
-.containindexboxes {display: grid; flex-direction: column;}
-
-/*decoritive boxes (as seen on index from milanote mockup)*/
-.decobox0 {
-    height: 400px;
-    width: 675px;
-    background-color: rgb(14, 116, 116);
-    padding: 10px;
-    border-radius: 25px;
+.indexhero {
+    background-image: url(src/images/placeholder.jpg);
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     z-index: -1;
-}
-.decobox1 {
-    height: 400px;
-    width: 675px;
-    background-color: rgba(0, 255, 255, 0.748);
-    padding: 10px;
     border-radius: 25px;
-    z-index: 1;
 }
 
-
-
-
-
-
-/*id button thing for more info as seen on milanote index mockup*/
-.whateverfixesit {
-    align-items: center;
-    display: flex;
-    justify-content: center; 
-    background-color: #333333;
-    font-family: 'Ubuntu', sans-serif;
-    height: 75px;
-    width: 350px;
-    border-radius: 25px;
-    border: none;
-    font-size: 25px;
-}
-.whateverfixesit:hover {background-color: rgb(221, 126, 1);}
-.tofooterindexbreif {text-decoration: none; color: white;}
 
 /*the photo thats SUPPOSED to appear behind and just above the button idk i'll fix it later when i get my final images sorted*/
 .bannerimgindex {display: flex; height: 350px; right: 365px; top: 200px;}
 
 /*the divider just under the cool sqares and above the breifing*/
 .divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px;}
-.fixforfooteranddivider {line-height: 680px;}
+
 
 /*INFO BOXES BELLOW, DO NOT TOUCH (UNLESS VISUALS!!!), THEY WORK FINE!!!*/
 
