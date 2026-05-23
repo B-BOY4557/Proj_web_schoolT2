@@ -48,7 +48,7 @@ html, body {scroll-behavior: smooth; height: 100%; }
 }
 
 .fixtopindex {line-height: 55px;}
-.containbuttonandtext {position: absolute; top: 40%; left: 50%; transform: translateX(-50%);}
+.containbuttonandtext {position: absolute; top: 35%; left: 50%; transform: translateX(-50%);}
 .heroheader {text-align: center; font-size: calc(12px + 1.5vw); }
 .breifbuttonindex {min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
 .breifbuttonindex:hover {background-color: green;}
@@ -93,5 +93,16 @@ html, body {scroll-behavior: smooth; height: 100%; }
 
 /*THE PAGE WORKS ON MOBILE (as of current and is not not the best but it is functionable) I CAN NOT DO ANY MORE OPTOMPISATION WITHOUT LOOSING MY MIND!*/
 
+/*polution.html css*/
 
+.polutionhero {
+    background-image: url(src/images/Kyleslash.png);
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
 
