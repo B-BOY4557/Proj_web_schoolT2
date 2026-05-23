@@ -1,15 +1,18 @@
 /*this NEEDS to be optomised for readability!!!*/
 :root{}
 
+
+/*index.html css*/
+
 /*so the IDs look better*/
 html, body {scroll-behavior: smooth; height: 100%; }
 
-.navbarcontain {z-index: 1;}
 
+/*everything here is inside a div container*/
 /*navbar*/
 .hyperbar {
     font-size: 18px;
-    border-radius: 25px;
+    border-radius: 25px 0px 25px 0px;
     float: inline-start;
     list-style-type: none;
     margin: 0;
@@ -40,17 +43,20 @@ html, body {scroll-behavior: smooth; height: 100%; }
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -1;
     border-radius: 25px;
+    overflow: hidden;
 }
 
+.fixtopindex {line-height: 55px;}
+.containbuttonandtext {position: absolute; top: 40%; left: 50%; transform: translateX(-50%);}
+.heroheader {text-align: center; font-size: calc(12px + 1.5vw); }
+.breifbuttonindex {min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
+.breifbuttonindex:hover {background-color: green;}
 
-/*the photo thats SUPPOSED to appear behind and just above the button idk i'll fix it later when i get my final images sorted*/
-.bannerimgindex {display: flex; height: 350px; right: 365px; top: 200px;}
+/*div container stops*/
 
 /*the divider just under the cool sqares and above the breifing*/
 .divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px;}
-
 
 /*INFO BOXES BELLOW, DO NOT TOUCH (UNLESS VISUALS!!!), THEY WORK FINE!!!*/
 
@@ -71,6 +77,7 @@ html, body {scroll-behavior: smooth; height: 100%; }
     flex-shrink: 0;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
 }
 .infoboxtextindex, .infoboxtextindex2, .infoboxtextindex3 {
     flex-grow: 1;
@@ -81,7 +88,10 @@ html, body {scroll-behavior: smooth; height: 100%; }
     display: flex;
     flex-grow: 1;
     min-width: 50%;
+    margin-bottom: 20px;
 }
+
+/*THE PAGE WORKS ON MOBILE (as of current and is not not the best but it is functionable) I CAN NOT DO ANY MORE OPTOMPISATION WITHOUT LOOSING MY MIND!*/
 
 
 
