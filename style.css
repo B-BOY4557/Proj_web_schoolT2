@@ -1,4 +1,3 @@
-/*this NEEDS to be optomised for readability!!!*/
 :root{}
 
 
@@ -50,7 +49,7 @@ html, body {scroll-behavior: smooth; height: 100%; }
 .fixtopindex {line-height: 55px;}
 .containbuttonandtext {position: absolute; top: 35%; left: 50%; transform: translateX(-50%);}
 .heroheader {text-align: center; font-size: calc(12px + 1.5vw); }
-.breifbuttonindex {min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
+.breifbuttonindex {margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
 .breifbuttonindex:hover {background-color: green;}
 
 /*div container stops*/
@@ -105,4 +104,18 @@ html, body {scroll-behavior: smooth; height: 100%; }
     border-radius: 25px;
     overflow: hidden;
 }
+
+.polutetextbox, .polutetextbox2 {
+    flex-grow: 1;
+    height: 285px;
+    background-color: rgba(6, 98, 44, 0.748);
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-grow: 1;
+    min-width: 50%;
+    margin-bottom: 20px;
+}
+
+.fixbuttongap {height: .4px;} /*nothing was working so i had to do this as a cheap fix*/
 
