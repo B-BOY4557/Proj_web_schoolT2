@@ -50,7 +50,7 @@ html, body {scroll-behavior: smooth; height: 100%; }
 .containbuttonandtext {position: absolute; top: 35%; left: 50%; transform: translateX(-50%);}
 .heroheader {font-family: 'Ubuntu', sans-serif; text-align: center; font-size: calc(12px + 1.5vw); }
 .breifbuttonindex {margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
-.breifbuttonindex:hover {background-color: green;}
+.breifbuttonindex:hover, .solutionbutton1:hover, .solutionbutton2:hover {background-color: green;}
 
 /*div container stops*/
 
@@ -131,3 +131,24 @@ html, body {scroll-behavior: smooth; height: 100%; }
     border-radius: 25px;
     overflow: hidden;
 }
+
+/*solution.html css*/
+
+.solutionhero {
+    background-image: url(src/images/placeholder.jpg);
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.containsolutionunderherobuttons {
+    display: inline-flex;
+}
+
+.solutionbutton1, .solutionbutton2 {margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px;}
+
+
