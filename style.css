@@ -146,9 +146,27 @@ html, body {scroll-behavior: smooth; height: 100%; }
 }
 
 .containsolutionunderherobuttons {
-    display: inline-flex;
+    display: flex; justify-content: center; align-items: center; width: 100vw; flex-wrap: wrap;
 }
 
-.solutionbutton1, .solutionbutton2 {margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px;}
+.solutionbutton1, .solutionbutton2 {margin: 0px 10px ; margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px;}
+
+/*boxes under the devider*/
+.contain4, .contain5, .contain6 {display: flex; align-items: center; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;}
+.contain6 {margin-bottom: -25px;}
+.contain5 {flex-direction: row-reverse; }
 
 
+.infoboxindex5, .infoboxindex6, .infoboxindex7 {
+    height: 285px;
+    width: 300px;
+    background-image: url(src/images/placeholder.jpg);
+    background-size: cover;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
