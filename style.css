@@ -1,10 +1,16 @@
-:root{}
+:root{
+    --muted-green: #64b0a9; /*main site color*/
+    --onahau-blue: #cbeefe; /*acsent*/
+    --seashell-white: #f8f8f8; /*backdrop and maybe buttons*/
+    --keppel-green: #38b687; /*complements the muted green*/
+}
 
 
 /*index.html css*/
 
 /*so the IDs look better*/
-html, body {scroll-behavior: smooth; height: 100%; }
+html, body {background-color: var(--seashell-white); scroll-behavior: smooth; height: 100%; }
+
 
 
 /*everything here is inside a div container*/
@@ -17,21 +23,23 @@ html, body {scroll-behavior: smooth; height: 100%; }
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: var(--muted-green);
 }
 
 .hyperbar .navoption {float: inline-start;}
 .hyperbar .navoption .hyperlinkblocked {
     font-family: 'Ubuntu', sans-serif;
+    color:  var(--onahau-blue);
     display: block;
-    color: white;
+    color: var(--seashell-white);
     text-align: center;
     padding: 15px;
     text-decoration: none;
 }
 .hyperbar .navoption .hyperlinkblocked:hover {
     font-family: 'Ubuntu', sans-serif;
-    background-color: #111111;
+    color: var(--onahau-blue);
+    background-color: var(--keppel-green);
     border-radius: 15px;
 }
 
@@ -48,14 +56,14 @@ html, body {scroll-behavior: smooth; height: 100%; }
 
 .fixtopindex {line-height: 55px;}
 .containbuttonandtext {position: absolute; top: 35%; left: 50%; transform: translateX(-50%);}
-.heroheader {font-family: 'Ubuntu', sans-serif; text-align: center; font-size: calc(12px + 1.5vw); }
-.breifbuttonindex {margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
-.breifbuttonindex:hover, .solutionbutton1:hover, .solutionbutton2:hover {background-color: green;}
+.heroheader {color: var(--onahau-blue); font-family: 'Ubuntu', sans-serif; text-align: center; font-size: calc(12px + 1.5vw); }
+.breifbuttonindex {color: var(--muted-green); background-color: var(--onahau-blue); margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
+.breifbuttonindex:hover, .solutionbutton1:hover, .solutionbutton2:hover {color: var(--onahau-blue); background-color: var(--muted-green);}
 
 /*div container stops*/
 
 /*the divider just under the cool sqares and above the breifing*/
-.divider {border-top: 7px solid rgb(6, 94, 104); border-radius: 25px;}
+.divider {border-top: 7px solid var(--keppel-green); border-radius: 25px;}
 
 /*INFO BOXES BELLOW, DO NOT TOUCH (UNLESS VISUALS!!!), THEY WORK FINE!!!*/
 
@@ -81,7 +89,7 @@ html, body {scroll-behavior: smooth; height: 100%; }
 .infoboxtextindex, .infoboxtextindex2, .infoboxtextindex3 {
     flex-grow: 1;
     height: 285px;
-    background-color: rgba(6, 98, 44, 0.748);
+    background-color: var(--muted-green);
     padding: 10px;
     border-radius: 25px;
     display: flex;
@@ -108,7 +116,7 @@ html, body {scroll-behavior: smooth; height: 100%; }
 .polutetextbox, .polutetextbox2 {
     flex-grow: 1;
     height: 285px;
-    background-color: rgba(6, 98, 44, 0.748);
+    background-color: var(--muted-green);
     padding: 10px;
     border-radius: 25px;
     display: flex;
@@ -149,7 +157,7 @@ html, body {scroll-behavior: smooth; height: 100%; }
     display: flex; justify-content: center; align-items: center; width: 100vw; flex-wrap: wrap;
 }
 
-.solutionbutton1, .solutionbutton2 {margin: 0px 10px ; margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px;}
+.solutionbutton1, .solutionbutton2 {background-color: var(--onahau-blue); margin: 0px 10px ; margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; color: var(--muted-green);}
 
 /*boxes under the devider*/
 .contain4, .contain5, .contain6 {display: flex; align-items: center; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;}
@@ -170,3 +178,11 @@ html, body {scroll-behavior: smooth; height: 100%; }
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+/*404.html css*/
+.c404contain {margin-top: 10vh; display: flex; align-items: center; justify-content: center; flex-direction: column; overflow: hidden;}
+.c404dance {height: 60vh; image-rendering: pixelated;}
+.html404, .body404 {background-color: rgb(3, 3, 3);}
+.h404, .p404 {color: var(--seashell-white); text-align: center;}
+.home404 {height: 30px; width: 60px; border-radius: 25px; font-family: 'Ubuntu', sans-serif; border: none; background-color: var(--onahau-blue); color: var(--muted-green)}
+.home404:hover {background-color: var(--muted-green); color: var(--onahau-blue); }
