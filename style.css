@@ -12,6 +12,12 @@
 html, body {background-color: var(--seashell-white); scroll-behavior: smooth; height: 100%; }
 
 
+.text1index, .texth1index {margin: 10px 0; font-family: 'Ubuntu', sans-serif; color:  var(--onahau-blue); display: flex; align-items: center; justify-content: center; overflow: scroll;} /*fixed the issue and cant be bothered removing the unessasary stuff from here as of current*/
+
+
+
+
+
 
 /*everything here is inside a div container*/
 /*navbar*/
@@ -44,7 +50,7 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
 }
 
 .indexhero {
-    background-image: url(src/images/placeholder.jpg);
+    background-image: url(src/images/heroidex.jpg);
     height: 75%;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +62,7 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
 
 .fixtopindex {line-height: 55px;}
 .containbuttonandtext {position: absolute; top: 35%; left: 50%; transform: translateX(-50%);}
-.heroheader {color: var(--onahau-blue); font-family: 'Ubuntu', sans-serif; text-align: center; font-size: calc(12px + 1.5vw); }
+.heroheader {color: var(--onahau-blue); font-family: 'Ubuntu', sans-serif; text-align: center; font-size: calc(30px + 1.5vw); }
 .breifbuttonindex {color: var(--muted-green); background-color: var(--onahau-blue); margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; position: relative; left: 50%; transform: translateX(-50%); }
 .breifbuttonindex:hover, .solutionbutton1:hover, .solutionbutton2:hover {color: var(--onahau-blue); background-color: var(--muted-green);}
 
@@ -76,7 +82,6 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
 .infoboxindex, .infoboxindex2, .infoboxindex3 {
     height: 285px;
     width: 300px;
-    background-image: url(src/images/placeholder.jpg);
     background-size: cover;
     padding: 10px;
     border-radius: 25px;
@@ -86,6 +91,9 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
     margin-right: auto;
     margin-bottom: 20px;
 }
+.infoboxindex {background-image: url(src/images/dumpsqr.avif);}
+.infoboxindex2 {background-image: url(src/images/Pestssqr.avif);}
+
 .infoboxtextindex, .infoboxtextindex2, .infoboxtextindex3 {
     flex-grow: 1;
     height: 285px;
@@ -96,6 +104,10 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
     flex-grow: 1;
     min-width: 50%;
     margin-bottom: 20px;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 /*THE PAGE WORKS ON MOBILE (as of current and is not not the best but it is functionable) I CAN NOT DO ANY MORE OPTOMPISATION WITHOUT LOOSING MY MIND!*/
