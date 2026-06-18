@@ -115,7 +115,7 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
 /*polution.html css*/
 
 .polutionhero {
-    background-image: url(src/images/Kyleslash.png);
+    background-image: url(src/images/heropolute.jpg);
     height: 75%;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,7 +142,7 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
 /*pests.html css*/
 
 .pestshero {
-    background-image: url(src/images/placeholder.jpg);
+    background-image: url(src/images/heropest.jpg);
     height: 75%;
     background-position: center;
     background-repeat: no-repeat;
@@ -155,7 +155,7 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
 /*solution.html css*/
 
 .solutionhero {
-    background-image: url(src/images/placeholder.jpg);
+    background-image: url(src/images/herosolution.jpg);
     height: 75%;
     background-position: center;
     background-repeat: no-repeat;
