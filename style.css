@@ -125,6 +125,8 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
     overflow: hidden;
 }
 
+.infoboxindex2 {overflow: scroll;}
+
 .polutetextbox, .polutetextbox2 {
     flex-grow: 1;
     height: 285px;
@@ -172,7 +174,7 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
 .solutionbutton1, .solutionbutton2 {background-color: var(--onahau-blue); margin: 0px 10px ; margin-bottom: 20px; min-height: 10px; min-width: 20px; height: 65px; width: 275px; border: none; border-radius: 25px; font-family: 'Ubuntu', sans-serif; font-size: 25px; color: var(--muted-green);}
 
 /*boxes under the devider*/
-.contain4, .contain5, .contain6 {display: flex; align-items: center; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;}
+.contain4, .contain5, .contain6 {overflow: scroll; display: flex; align-items: center; gap: 20px; margin-bottom: 20px; flex-wrap: wrap; color: var(--onahau-blue); font-family: 'Ubuntu', sans-serif;}
 .contain6 {margin-bottom: -25px;}
 .contain5 {flex-direction: row-reverse; }
 
@@ -189,6 +191,7 @@ html, body {background-color: var(--seashell-white); scroll-behavior: smooth; he
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    overflow: scroll;
 }
 
 /*404.html css*/
